@@ -3,8 +3,75 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  color: #f7b600;
+  background-color: #fff;
+}
+
+h1 {
+  padding-left: 50px;
+  padding-bottom: 1px;
+  font-size: 4em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#address {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  font-size: 1.2em;
+}
+
+#conhecimentos {
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 100px;
+  padding-top: 50px;
+  color: darkgray;
+  list-style-type: lower-alpha;
+}
+
+#email,
+#johann {
+  color: #f7b600;
+}
+
 .icones {
   padding-right: 30px;
+}
+
+#imagem-perfil {
+  border-radius: 50%;
+}
+
+#lista-aside {
+  padding: 20px;
+}
+
+#objetivos {
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 100px;
+  padding-top: 50px;
+  color: darkgray;
+  list-style-type: disc;
+}
+
+#redes {
+  padding-left: 50px;
 }
 
 #section1 {
@@ -35,8 +102,9 @@
   align-items: left;
 }
 
-#imagem-perfil {
-  border-radius: 50%;
+#sobre {
+  padding-left: 50px;
+  padding-bottom: 40px;
 }
 
 #texto-aside {
@@ -47,70 +115,4 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #000;
   padding: 10px;
-}
-
-#lista-aside {
-  padding: 20px;
-}
-
-#sobre {
-  padding-left: 50px;
-  padding-bottom: 40px;
-}
-
-#redes {
-  padding-left: 50px;
-}
-
-#address {
-  padding-left: 50px;
-  padding-bottom: 50px;
-  font-size: 1.2em;
-}
-
-#conhecimentos {
-  font-size: 2em;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding-left: 100px;
-  padding-top: 50px;
-  color: darkgray;
-  list-style-type: lower-alpha;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a:link,
-a:visited {
-  color: #fff;
-}
-
-#objetivos {
-  font-size: 2em;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding-left: 100px;
-  padding-top: 50px;
-  color: darkgray;
-  list-style-type: disc;
-}
-
-h1 {
-  padding-left: 50px;
-  padding-bottom: 1px;
-  font-size: 4em;
-}
-
-#johann {
-  color: #f7b600;
-}
-
-#email {
-  color: #f7b600;
 }
