@@ -48,10 +48,6 @@ ul {
   color: #f7b600;
 }
 
-.icones {
-  padding-right: 30px;
-}
-
 #imagem-perfil {
   border-radius: 50%;
 }
@@ -115,4 +111,8 @@ ul {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #000;
   padding: 10px;
+}
+
+.icones {
+  padding-right: 30px;
 }
