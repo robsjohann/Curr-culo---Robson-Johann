@@ -39,17 +39,17 @@ ul {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-left: 100px;
   padding-top: 50px;
-  color: darkgray;
+  color: #000;
   list-style-type: lower-alpha;
 }
 
-#email,
-#johann {
+#email {
   color: #f7b600;
 }
 
 #imagem-perfil {
   border-radius: 50%;
+  outline: 5px solid #000;
 }
 
 #lista-aside {
@@ -62,7 +62,7 @@ ul {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-left: 100px;
   padding-top: 50px;
-  color: darkgray;
+  color: #000;
   list-style-type: disc;
 }
 
@@ -115,4 +115,8 @@ ul {
 
 .icones {
   padding-right: 30px;
+}
+
+.amarelo {
+  color: #f7b600;
 }
